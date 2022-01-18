@@ -1,0 +1,3 @@
+#!/usr/bin/env python
+
+import xkcd_cli_viewer
