@@ -39,7 +39,7 @@ def main():
         if not isinstance(comic, Comic):
             console.print("")
             console.print("[red]That comic couldn't be found.[/]")
-            return 1
+            exit(1)
 
         while True:
             comic_time_alert = (
@@ -82,7 +82,7 @@ def main():
             elif command == "back":
                 break
             elif command == "exit":
-                return 0
+                exit(0)
 
 
 if __name__ == "__main__":
