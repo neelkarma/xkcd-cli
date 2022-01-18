@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "xkcd-cli"
+name = "xkcd-cli-viewer"
 version = "0.1.0"
 description = "A CLI that scrapes the XKCD website."
 authors = ["iamkneel <nsdj.sharma@gmail.com>"]
